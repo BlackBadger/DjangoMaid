@@ -23,3 +23,17 @@ class Employee(models.Model):
 	def __unicode__(self):
 		return self.first_name + ' ' + self.last_name
 
+
+
+class EmployeeForm(forms.Form):
+	ffirst_name = models.CharField(max_length=30)
+	flast_name = models.CharField(max_length=30)
+	fstreet_add = models.CharField(max_length=30)
+	fapt_add = models.CharField(max_length=30)
+	fcity_add = models.CharField(max_length=30)
+	fstate_add = models.CharField(max_length=30)
+	fzip_add = models.IntegerField()
+	fphone = models.IntegerField()
+	femail = models.CharField(max_length=30)
+	fdob = models.DateField()
+	fallergens = models.CharField(max_length=30, choices=allergies_choices)

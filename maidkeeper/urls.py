@@ -14,7 +14,7 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
 	url(r'^employees/$', 'employees.views.index'),
-	url(r'^addEmployee/$', 'employees.views.addEmployee'),
+	url(r'^employees/addEmployee/$', 'employees.views.addEmployee'),
     url(r'^admin/', include(admin.site.urls)),
 	(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
 	(r'^employees/static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),

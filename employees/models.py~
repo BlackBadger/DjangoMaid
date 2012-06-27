@@ -1,5 +1,5 @@
-from django.db import models
 from django import forms
+from django.forms import ModelForm
 
 allergies_choices = (
 	('Cat', 'Cat'),
@@ -22,4 +22,10 @@ class Employee(models.Model):
 	allergens = models.CharField(max_length=30, choices=allergies_choices)
 	def __unicode__(self):
 		return self.first_name + ' ' + self.last_name
+
+
+
+class EmployeeForm(ModelForm):
+	class Meta:
+		model = Employee
 

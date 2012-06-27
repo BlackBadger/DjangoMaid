@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 from django.template import Context, loader
-from employees.models import Employee
+from employees.models import Employee, EmployeeForm
 from django.template import RequestContext
 from django.shortcuts import render_to_response
 def ip_address_processor(request):
@@ -14,3 +14,8 @@ def index(request):
 	}, [ip_address_processor])
     return HttpResponse(t.render(c))
 
+
+
+def addEmployee(request):
+	new_employee = EmployeeForm()
+	return render_to_response('employees/save.html', {'EmployeeForm': new_employee})

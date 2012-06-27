@@ -1,5 +1,7 @@
-from django.db import models
 from django import forms
+from django.forms import ModelForm
+from django.db import models
+
 
 allergies_choices = (
 	('Cat', 'Cat'),
@@ -25,15 +27,7 @@ class Employee(models.Model):
 
 
 
-class EmployeeForm(forms.Form):
-	ffirst_name = models.CharField(max_length=30)
-	flast_name = models.CharField(max_length=30)
-	fstreet_add = models.CharField(max_length=30)
-	fapt_add = models.CharField(max_length=30)
-	fcity_add = models.CharField(max_length=30)
-	fstate_add = models.CharField(max_length=30)
-	fzip_add = models.IntegerField()
-	fphone = models.IntegerField()
-	femail = models.CharField(max_length=30)
-	fdob = models.DateField()
-	fallergens = models.CharField(max_length=30, choices=allergies_choices)
+class EmployeeForm(ModelForm):
+	class Meta:
+		model = Employee
+

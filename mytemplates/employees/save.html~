@@ -1,0 +1,6 @@
+<form method="post" action="">
+<table>
+{{YaziForm}}
+</table>
+<input type="submit" value="Submit Form"/>
+</form>

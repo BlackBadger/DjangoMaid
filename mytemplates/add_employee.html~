@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<title>MAIDapp</title>
-		<link href="{{ MEDIA_URL }}css/bootstrap.css" type="text/css" rel="stylesheet">
-		<link href="{{ MEDIA_URL }}css/style.css" type="text/css" rel="stylesheet">
+		<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+		<link href="css/style.css" type="text/css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
 	</head>
@@ -11,7 +11,7 @@
 		<div class="row header">
 			<div class="container">
 				<p>
-					<a href="index.html"><span id="logo"><img src="{{ MEDIA_URL }}img/logo.png" width="218" height="40"></span></a>
+					<a href="index.html"><span id="logo"><img src="img/logo.png" width="218" height="40"></span></a>
 					<span class="floatright settingsPos">Settings <i class="icon-cog icon-white iconPos"></i></span>
 				</p>
 			</div>

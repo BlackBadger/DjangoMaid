@@ -75,7 +75,7 @@
 			<div class="row span7 noMargin">
 				<h2 class="heading2" style="margin-left: 0;">Add Employee</h2>
 				<div class="span7 noMargin">
-					<form action="" method="post">
+					<form action="/employees/addEmployee/" method="post">
 					{% csrf_token %}
 					<table>
 					{{ employee_form.as_table }}

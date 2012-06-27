@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MAIDapp</title>
+		<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="row header">
+			<div class="container">
+				<p>
+					<a href="index.html"><span id="logo"><img src="img/logo.png" width="218" height="40"></span></a>
+					<span class="floatright settingsPos">Settings <i class="icon-cog icon-white iconPos"></i></span>
+				</p>
+			</div>
+		</div>
+		<div class="row navBg">
+			<div class="container">
+				<div class="navbar navbar-static">
+					<div id="navbar-example" class="navbar-inner">
+						<ul class="nav">
+							<li class="active">
+							    <a href="index_logged_in.html">
+							      Dashboard <i class="icon-home icon-white"></i>
+							    </a>
+							</li>
+							<li class="active">
+								<li class="dropdown" id="menu1">
+							    <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
+							      Schedule
+							      <b class="caret"></b>
+							    </a>
+							    <ul class="dropdown-menu">
+							      <li><a href="add_appointment.html">Add Appointment</a></li>
+							      <li><a href="view_schedule.html">View Schedule</a></li>
+							    </ul>
+							  </li>
+							</li>
+							<li class="active">
+								<li class="dropdown" id="menu2">
+							    <a class="dropdown-toggle" data-toggle="dropdown" href="#menu2">
+							      Employees
+							      <b class="caret"></b>
+							    </a>
+							    <ul class="dropdown-menu">
+							      <li><a href="add_employee.html">Add Employee</a></li>
+							      <li><a href="view_employees.html">View Employees</a></li>
+							    </ul>
+							  </li>
+							</li>
+							<li class="active">
+								<li class="dropdown" id="menu3">
+							    <a class="dropdown-toggle" data-toggle="dropdown" href="#menu3">
+							      Reports
+							      <b class="caret"></b>
+							    </a>
+							    <ul class="dropdown-menu">
+							      <li><a href="view_reports.html">View Reports</a></li>
+							    </ul>
+							  </li>
+							</li>
+						</ul>
+						<div class="floatright">
+							<input type="text" class="form-search searchPos" placeholder="Search..."><button class="btn btn-warning iconPos"><i class="icon-search"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container main">
+			<div class="row span7 noMargin">
+				<h2 class="heading2" style="margin-left: 0;">Add Appointment</h2>
+				<div class="span7 noMargin">
+					<form>
+						<div class="well">
+							<input type="text" class="span3" placeholder="First name..."><br>
+							<input type="text" class="span3" placeholder="Last name..."><br>
+							<input type="text" class="span3" placeholder="Company name..."><br>
+							<input type="email" class="span4" placeholder="Email..."><br><input type="checkbox">&nbsp;Preferred method of contact?<br> 
+							<br>
+							<div class="btn btn-info" id="dropper"><i class="icon-chevron-down icon-white" id="iconSwitch"></i> Finish Now</div>&nbsp;&nbsp;<a href="index_logged_in.html"><button class="btn btn-primary" id="submit"><i class="icon-ok icon-white"></i> Finish Later</button></a>
+							<br>
+							<div id="drop">
+								<br>
+								<input type="text" class="span2" placeholder="Phone...">&nbsp;&nbsp;&nbsp;Receive Texts? <input type="checkbox">&nbsp;&nbsp;&nbsp;Preferred method of contact? <input type="checkbox"><br>
+								<input type="text" class="span5" placeholder="Street..."> <input type="text" class="span1" placeholder="Apt...">
+								<input type="text" class="span3" placeholder="City..."> 
+								<select class="span2">
+									<option value="State...">State...</option>
+									<option value="AL">Alabama</option>
+									<option value="AK">Alaska</option>
+									<option value="AZ">Arizona</option>
+									<option value="AR">Arkansas</option>
+									<option value="CA">California</option>
+									<option value="CO">Colorado</option>
+									<option value="CT">Connecticut</option>
+									<option value="DE">Delaware</option>
+									<option value="DC">District of Columbia</option>
+									<option value="FL">Florida</option>
+									<option value="GA">Georgia</option>
+									<option value="HI">Hawaii</option>
+									<option value="ID">Idaho</option>
+									<option value="IL">Illinois</option>
+									<option value="IN">Indiana</option>
+									<option value="IA">Iowa</option>
+									<option value="KS">Kansas</option>
+									<option value="KY">Kentucky</option>
+									<option value="LA">Louisiana</option>
+									<option value="ME">Maine</option>
+									<option value="MD">Maryland</option>
+									<option value="MA">Massachusetts</option>
+									<option value="MI">Michigan</option>
+									<option value="MN">Minnesota</option>
+									<option value="MS">Mississippi</option>
+									<option value="MO">Missouri</option>
+									<option value="MT">Montana</option>
+									<option value="NE">Nebraska</option>
+									<option value="NV">Nevada</option>
+									<option value="NH">New Hampshire</option>
+									<option value="NJ">New Jersey</option>
+									<option value="NM">New Mexico</option>
+									<option value="NY">New York</option>
+									<option value="NC">North Carolina</option>
+									<option value="ND">North Dakota</option>
+									<option value="OH">Ohio</option>
+									<option value="OK">Oklahoma</option>
+									<option value="OR">Oregon</option>
+									<option value="PA">Pennsylvania</option>
+									<option value="RI">Rhode Island</option>
+									<option value="SC">South Carolina</option>
+									<option value="SD">South Dakota</option>
+									<option value="TN">Tennessee</option>
+									<option value="TX">Texas</option>
+									<option value="UT">Utah</option>
+									<option value="VT">Vermont</option>
+									<option value="VA">Virginia</option>
+									<option value="WA">Washington</option>
+									<option value="WV">West Virginia</option>
+									<option value="WI">Wisconsin</option>
+									<option value="WY">Wyoming</option>
+								</select>
+								<input type="text" class="span1" placeholder="Zip...">
+								<br>
+								<select>
+									<option><em>Select Service...</em></option>
+									<option>Regular Cleaning</option>
+									<option>Party Cleaning</option>
+									<option>Move-out Cleaning</option>
+									<option>Dogwalking</option>
+								</select>
+								<br>
+								<label>Hazards:</label>
+								<input type="checkbox" name="Allergens" value="Allergens"> Allergens &nbsp;&nbsp;
+								<input type="checkbox" name="Dog" value="Dog"> Dog &nbsp;&nbsp;
+								<input type="checkbox" name="Other" value="Other"> Other &nbsp;&nbsp;<br>
+								<br>
+								<div class="well span6 slideleft">
+									<p>Available from:</p>
+									<input type="date" class="span4" id="from" name="from" placeholder="Date"> 
+									<select class="span2">
+										<option>12am</option>
+										<option>1am</option>
+										<option>2am</option>
+										<option>3am</option>
+										<option>4am</option>
+										<option>5am</option>
+										<option>6am</option>
+										<option>7am</option>
+										<option>8am</option>
+										<option>9am</option>
+										<option>10am</option>
+										<option>11am</option>
+										<option>12pm</option>
+										<option>1pm</option>
+										<option>2pm</option>
+										<option>3pm</option>
+										<option>4pm</option>
+										<option>5pm</option>
+										<option>6pm</option>
+										<option>7pm</option>
+										<option>8pm</option>
+										<option>9pm</option>
+										<option>10pm</option>
+										<option>11pm</option>
+									</select>
+									<p>through</p>
+									<input type="date" class="span4" id="to" name="to" placeholder="Date"> 
+									<select class="span2">
+										<option>12am</option>
+										<option>1am</option>
+										<option>2am</option>
+										<option>3am</option>
+										<option>4am</option>
+										<option>5am</option>
+										<option>6am</option>
+										<option>7am</option>
+										<option>8am</option>
+										<option>9am</option>
+										<option>10am</option>
+										<option>11am</option>
+										<option>12pm</option>
+										<option>1pm</option>
+										<option>2pm</option>
+										<option>3pm</option>
+										<option>4pm</option>
+										<option>5pm</option>
+										<option>6pm</option>
+										<option>7pm</option>
+										<option>8pm</option>
+										<option>9pm</option>
+										<option>10pm</option>
+										<option>11pm</option>
+									</select>
+								</div>
+								<div class="well span6 slideleft">
+									<p class="clear">NOT Available from:</p>
+									<input type="date" class="span4" id="from" name="from" placeholder="Date"> 
+									<select class="span2">
+										<option>12am</option>
+										<option>1am</option>
+										<option>2am</option>
+										<option>3am</option>
+										<option>4am</option>
+										<option>5am</option>
+										<option>6am</option>
+										<option>7am</option>
+										<option>8am</option>
+										<option>9am</option>
+										<option>10am</option>
+										<option>11am</option>
+										<option>12pm</option>
+										<option>1pm</option>
+										<option>2pm</option>
+										<option>3pm</option>
+										<option>4pm</option>
+										<option>5pm</option>
+										<option>6pm</option>
+										<option>7pm</option>
+										<option>8pm</option>
+										<option>9pm</option>
+										<option>10pm</option>
+										<option>11pm</option>
+									</select>
+									<p>through</p>
+									<input type="date" class="span4" id="to" name="to" placeholder="Date"> 
+									<select class="span2">
+										<option>12am</option>
+										<option>1am</option>
+										<option>2am</option>
+										<option>3am</option>
+										<option>4am</option>
+										<option>5am</option>
+										<option>6am</option>
+										<option>7am</option>
+										<option>8am</option>
+										<option>9am</option>
+										<option>10am</option>
+										<option>11am</option>
+										<option>12pm</option>
+										<option>1pm</option>
+										<option>2pm</option>
+										<option>3pm</option>
+										<option>4pm</option>
+										<option>5pm</option>
+										<option>6pm</option>
+										<option>7pm</option>
+										<option>8pm</option>
+										<option>9pm</option>
+										<option>10pm</option>
+										<option>11pm</option>
+									</select>
+									<p><small><a href="#">Add another exclusion</a></small></p>
+								</div>
+								<div class="clear leftalign">
+									<input type="checkbox"> Confirmed? <br><br>
+									<a href="index_logged_in.html"><button class="btn btn-primary" id="submit"><i class="icon-ok icon-white"></i> Save Appointment</button></a>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="span4 floatright">
+				<div id="sidebar" class="well">
+					<h3>Available appointments:</h3>
+					<br>
+					<table class="table table-striped">
+						<tr>
+							<td><p class="clearpadmar"><i class="icon-ok-sign iconPos"></i> &nbsp;<a href="#" class="apptPop" rel="popover" data-content="Steve Jones & Stacey Albright" data-original-title="Monday, June 18th">Monday, June 18th <small>- 9am</small></a></p></td>
+						</tr>
+						<tr>
+							<td><p class="clearpadmar"><i class="icon-ok-sign iconPos"></i> &nbsp;<a href="#" class="apptPop" rel="popover" data-content="John Lennon & Paul McCartney" data-original-title="Tuesday, June 19th">Tuesday, June 19th <small>- 3pm</small></a></p></td>
+						</tr>
+						<tr>
+							<td><p class="clearpadmar"><i class="icon-ok-sign iconPos"></i> &nbsp;<a href="#" class="apptPop" rel="popover" data-content="Lady Gaga & Eminem" data-original-title="Thursday, June 24th">Thursday, June 24th <small>- 12pm</small></a></p></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="row footer">
+			<div class="container clear">
+				<div class="bottomText">
+					<p>
+						<small>
+							Copyright &copy; 2012 MAIDapp. All rights reserved.
+						</small>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap-popover.js"></script>
+		<script src="js/bootstrap-collapse.js"></script>
+		<script src="js/bootstrap-dropdown.js"></script>
+		<script src="js/tooltip.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

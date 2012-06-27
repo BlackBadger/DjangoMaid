@@ -1,0 +1,616 @@
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+        </title>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css"
+        />
+        <link rel="stylesheet" href="my.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js">
+        </script>
+    </head>
+    
+    <body>
+        <!-- -->
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <div>
+                    <h1 style="text-align: center; " data-mce-style="text-align: center;">
+                        <strong>
+                            <a style="" title="home" href="http://www.aldev.co/studentmaid/mobile"
+                            data-mce-href="http://www.aldev.co/studentmaid/mobile" data-mce-style="">
+                                <img src="http://aldev.co/studentmaid/img/logo.png" alt="Student Maid logo"
+                                width="218" height="40" data-mce-src="http://aldev.co/studentmaid/img/logo.png">
+                            </a>
+                            <br>
+                        </strong>
+                    </h1>
+                </div>
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#page4" data-theme="a" data-icon="home">
+                                Arrive
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <div data-role="collapsible-set" data-theme="b" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h3>
+                            Today
+                        </h3>
+                        <div>
+                            <a href="#page7" data-transition="slide">
+                                Appointment: 12pm-2pm
+                            </a>
+                        </div>
+                        <div>
+                            <p style="margin-left: 30px; " data-mce-style="margin-left: 30px;">
+                                <span style="font-size: small; " data-mce-style="font-size: small;">
+                                    Details: This is where the details for appointment1 goes.&nbsp;
+                                </span>
+                            </p>
+                            <p style="" data-mce-style="">
+                                <span style="font-size: small;" data-mce-style="font-size: small;">
+                                    <strong>
+                                        Appointment: 3pm-6pm
+                                    </strong>
+                                </span>
+                            </p>
+                            <p style="margin-left: 30px; " data-mce-style="margin-left: 30px;">
+                                <span style="font-size: small;" data-mce-style="font-size: small;">
+                                    Details: This is where the details for appointment2 goes.
+                                    <strong>
+                                        &nbsp;
+                                    </strong>
+                                    <br>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Tuesday(+1)
+                        </h3>
+                        <div>
+                            <p>
+                                <span>
+                                    <strong>
+                                        Appointment: 9am-11am&nbsp;
+                                    </strong>
+                                </span>
+                            </p>
+                            <p style="margin-left: 30px; ">
+                                <span>
+                                    Details: This is where the details for appointment1 goes.&nbsp;
+                                </span>
+                            </p>
+                            <p>
+                                <span>
+                                    <strong>
+                                        Appointment: 1pm-3pm
+                                    </strong>
+                                </span>
+                            </p>
+                            <p style="margin-left: 30px; ">
+                                <span>
+                                    Details: This is where the details for appointment2 goes.
+                                </span>
+                            </p>
+                            <p>
+                                <strong>
+                                    <br>
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Wednesday(+2)
+                        </h3>
+                        <div>
+                            <p>
+                                <span>
+                                    <strong>
+                                        Appointment: 12pm-2pm&nbsp;
+                                    </strong>
+                                </span>
+                            </p>
+                            <p style="margin-left: 30px; ">
+                                <span>
+                                    Details: This is where the details for appointment1 goes.&nbsp;
+                                </span>
+                            </p>
+                            <p>
+                                <span>
+                                    <strong>
+                                        Appointment: 3pm-6pm
+                                    </strong>
+                                </span>
+                            </p>
+                            <p style="margin-left: 30px; ">
+                                <span>
+                                    Details: This is where the details for appointment2 goes.
+                                </span>
+                            </p>
+                            <p>
+                                <strong>
+                                    <br>
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Thursday(+3)
+                        </h3>
+                        <div>
+                            <p>
+                                <span>
+                                    <strong>
+                                        Appointment: 12pm-2pm&nbsp;
+                                    </strong>
+                                </span>
+                            </p>
+                            <p style="margin-left: 30px; ">
+                                <span>
+                                    Details: This is where the details for appointment1 goes.&nbsp;
+                                </span>
+                            </p>
+                            <p>
+                                <span>
+                                    <strong>
+                                        Appointment: 3pm-6pm
+                                    </strong>
+                                </span>
+                            </p>
+                            <p style="margin-left: 30px; ">
+                                <span>
+                                    Details: This is where the details for appointment2 goes.
+                                </span>
+                            </p>
+                            <p>
+                                <strong>
+                                    <br>
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+            </div>
+            <div data-theme="a" data-role="footer">
+                <h1>
+                    MaidApp ‌©2012
+                </h1>
+            </div>
+        </div>
+        <!-- Arrive -->
+        <div data-role="page" id="page4">
+            <div data-theme="a" data-role="header">
+                <div>
+                    <h1 style="text-align: center; " data-mce-style="text-align: center;">
+                        <strong>
+                            <a href="http://www.aldev.co/studentmaid/mobile" data-mce-href="http://www.aldev.co/studentmaid/mobile"
+                            title="Home">
+                                <img src="http://aldev.co/studentmaid/img/logo.png" alt="Student Maid logo"
+                                width="218" height="40" data-mce-src="http://aldev.co/studentmaid/img/logo.png">
+                            </a>
+                            <br>
+                        </strong>
+                    </h1>
+                </div>
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#page1" data-theme="a" data-icon="home" class="ui-btn-active ui-state-persist">
+                                Arrive
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <img src="https://maps.googleapis.com/maps/api/staticmap?center=Gainesville, Fl&amp;zoom=14&amp;size=288x200&amp;markers=201 SE 2nd Ave Ste 209, Gainesville, F&amp;sensor=false"
+                width="288" height="200">
+                <div>
+                    <p>
+                        <strong>
+                            <strong>
+                                Grooveshark&nbsp;
+                            </strong>
+                        </strong>
+                        201 SE 2nd Ave Ste 209, Gainesville, FL
+                    </p>
+                    <p>
+                        <strong>
+                            Current time: 12:04pm
+                        </strong>
+                    </p>
+                </div>
+                <a data-role="button" data-transition="slide" data-theme="b" href="#page8"
+                data-icon="star" data-iconpos="top">
+                    Begin Service
+                </a>
+                <a data-role="button" data-inline="true" data-transition="slide" href="#tel:5555555555">
+                    Call Client
+                </a>
+                <a data-role="button" data-inline="true" data-transition="slide" href="#tel:5555555555">
+                    Call Office
+                </a>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+            </div>
+            <div data-theme="a" data-role="footer">
+                <h1>
+                    MaidApp ‌©2012
+                </h1>
+            </div>
+        </div>
+        <!-- Depart -->
+        <div data-role="page" id="page5">
+            <div data-theme="a" data-role="header">
+                <div>
+                    <h1 style="text-align: center; " data-mce-style="text-align: center;">
+                        <strong>
+                            <a title="Home" href="http://www.aldev.co/studentmaid/mobile" data-mce-href="http://www.aldev.co/studentmaid/mobile">
+                                <img src="http://aldev.co/studentmaid/img/logo.png" alt="Student Maid logo"
+                                width="218" height="40" data-mce-src="http://aldev.co/studentmaid/img/logo.png">
+                            </a>
+                            <br>
+                        </strong>
+                    </h1>
+                </div>
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#page1" data-theme="" data-icon="back" class="ui-btn-active ui-state-persist">
+                                Depart
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <img src="https://maps.googleapis.com/maps/api/staticmap?center=Gainesville, Fl&amp;zoom=14&amp;size=288x200&amp;markers=201 SE 2nd Ave Ste 209, Gainesville, F&amp;sensor=false"
+                width="288" height="200">
+                <div>
+                    <p>
+                        <strong>
+                            Grooveshark&nbsp;
+                        </strong>
+                        201 SE 2nd Ave Ste 209, Gainesville, FL
+                    </p>
+                    <p>
+                        <strong>
+                            Current time: 1:45pm
+                        </strong>
+                    </p>
+                </div>
+                <input type="submit" data-theme="b" data-icon="star" data-iconpos="top"
+                value="End Service">
+                <a data-role="button" data-inline="true" data-transition="slide" href="#tel:5555555555">
+                    Call Client
+                </a>
+                <a data-role="button" data-inline="true" data-transition="slide" href="#tel:5555555555">
+                    Call Office
+                </a>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+            </div>
+            <div data-theme="a" data-role="footer">
+                <h1>
+                    MaidApp ‌©2012
+                </h1>
+            </div>
+        </div>
+        <!-- Appointment -->
+        <div data-role="page" id="page7">
+            <div data-theme="a" data-role="header">
+                <div>
+                    <h1 style="text-align: center; " data-mce-style="text-align: center;">
+                        <strong>
+                            <a href="http://www.aldev.co/studentmaid/mobile" data-mce-href="http://www.aldev.co/studentmaid/mobile"
+                            title="Home">
+                                <img src="http://aldev.co/studentmaid/img/logo.png" alt="Student Maid logo"
+                                width="218" height="40" data-mce-src="http://aldev.co/studentmaid/img/logo.png">
+                            </a>
+                            <br>
+                        </strong>
+                    </h1>
+                </div>
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#page1" data-theme="a" data-icon="home">
+                                Arrive
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <div>
+                    <p style="" data-mce-style="">
+                        <strong>
+                            Appointment: 12pm-2pm
+                        </strong>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <strong>
+                            <strong>
+                                Grooveshark&nbsp;
+                            </strong>
+                        </strong>
+                        201 SE 2nd Ave Ste 209, Gainesville, FL
+                    </p>
+                    <p>
+                        <em>
+                            Major Supplies Required:&nbsp;
+                        </em>
+                        Mop, Broom, Vacuum.
+                    </p>
+                </div>
+                <img src="https://maps.googleapis.com/maps/api/staticmap?center=Gainesville, Fl&amp;zoom=14&amp;size=288x200&amp;markers=201 SE 2nd Ave Ste 209, Gainesville, F&amp;sensor=false"
+                width="288" height="200">
+                <a data-role="button" data-transition="slide" data-theme="b" href="#page8"
+                data-icon="star" data-iconpos="top">
+                    Begin Service
+                </a>
+                <a data-role="button" data-inline="true" data-transition="slide" href="#tel:5555555555">
+                    Call Client
+                </a>
+                <a data-role="button" data-inline="true" data-transition="slide" href="#tel:5555555555">
+                    Call Office
+                </a>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+            </div>
+            <div data-theme="a" data-role="footer">
+                <h1>
+                    MaidApp ‌©2012
+                </h1>
+            </div>
+        </div>
+        <!-- Checklist -->
+        <div data-role="page" id="page8">
+            <div data-theme="a" data-role="header">
+                <div>
+                    <h1 style="text-align: center; " data-mce-style="text-align: center;">
+                        <strong>
+                            <a style="" title="home" href="http://www.aldev.co/studentmaid/mobile"
+                            data-mce-href="http://www.aldev.co/studentmaid/mobile" data-mce-style="">
+                                <img src="http://aldev.co/studentmaid/img/logo.png" alt="Student Maid logo"
+                                width="218" height="40" data-mce-src="http://aldev.co/studentmaid/img/logo.png">
+                            </a>
+                            <br>
+                        </strong>
+                    </h1>
+                </div>
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#page4" data-theme="a" data-icon="home" class="ui-btn-active ui-state-persist">
+                                Arrive
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page9" data-theme="" data-icon="back">
+                                Depart
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <div>
+                    <p>
+                        <strong>
+                            Clients' Comments:&nbsp;
+                        </strong>
+                        <span id="_mce_caret" data-mce-bogus="true" style="">
+                            ﻿Glen will be home to let you in. Please make sure water the gardenias
+                            and cook a big pot of spaghetti for deGrasse, our terrier.&nbsp;
+                        </span>
+                    </p>
+                </div>
+                <div data-role="collapsible-set" data-theme="b" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h3>
+                            Checklist -Bedroom(s)
+                        </h3>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                                <legend>
+                                </legend>
+                                <input name="checkbox14" id="checkbox14" type="checkbox">
+                                <label for="checkbox14">
+                                    Floors Vacuumed
+                                </label>
+                                <input name="checkbox15" id="checkbox15" type="checkbox">
+                                <label for="checkbox15">
+                                    Bed Made
+                                </label>
+                                <input name="checkbox16" id="checkbox16" type="checkbox">
+                                <label for="checkbox16">
+                                    Furniture Dusted
+                                </label>
+                                <input name="checkbox17" id="checkbox17" type="checkbox">
+                                <label for="checkbox17">
+                                    Trash Taken
+                                </label>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Bathroom(s)
+                        </h3>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                                <legend>
+                                </legend>
+                                <input name="checkbox24" id="checkbox24" type="checkbox">
+                                <label for="checkbox24">
+                                    Mirror Cleaned
+                                </label>
+                                <input name="checkbox25" id="checkbox25" type="checkbox">
+                                <label for="checkbox25">
+                                    Shower Cleaned
+                                </label>
+                                <input name="checkbox26" id="checkbox26" type="checkbox">
+                                <label for="checkbox26">
+                                    Floors Cleaned
+                                </label>
+                                <input name="checkbox27" id="checkbox27" type="checkbox">
+                                <label for="checkbox27">
+                                    Trash Taken
+                                </label>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Kitchen
+                        </h3>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                                <legend>
+                                </legend>
+                                <input name="checkbox28" id="checkbox28" type="checkbox">
+                                <label for="checkbox28">
+                                    Dishes Washed
+                                </label>
+                                <input name="checkbox29" id="checkbox29" type="checkbox">
+                                <label for="checkbox29">
+                                    Floors Cleaned
+                                </label>
+                                <input name="checkbox30" id="checkbox30" type="checkbox">
+                                <label for="checkbox30">
+                                    Trash Taken
+                                </label>
+                            </fieldset>
+                        </div>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup">
+                                <label for="textinput1">
+                                    Title
+                                </label>
+                                <input id="textinput1" placeholder="" value="" type="text">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Lawn
+                        </h3>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                                <legend>
+                                </legend>
+                                <input name="checkbox31" id="checkbox31" type="checkbox">
+                                <label for="checkbox31">
+                                    Refuse Removed
+                                </label>
+                                <input name="checkbox32" id="checkbox32" type="checkbox">
+                                <label for="checkbox32">
+                                    Lawn Moved
+                                </label>
+                                <input name="checkbox33" id="checkbox33" type="checkbox">
+                                <label for="checkbox33">
+                                    Plants Watered
+                                </label>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="textinput2">
+                            Additional Comments:
+                        </label>
+                        <input id="textinput2" placeholder="Anything else..." value="" type="text">
+                    </fieldset>
+                </div>
+                <a data-role="button" data-transition="slide" data-theme="b" href="#page9"
+                data-icon="star" data-iconpos="top">
+                    Finish Checklist and Depart
+                </a>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+            </div>
+            <div data-theme="a" data-role="footer">
+                <h1>
+                    MaidApp ‌©2012
+                </h1>
+            </div>
+        </div>
+        <!-- Submit -->
+        <div data-role="page" id="page9">
+            <div data-theme="a" data-role="header">
+                <div>
+                    <h1 style="text-align: center; " data-mce-style="text-align: center;">
+                        <strong>
+                            <a style="" title="home" href="http://www.aldev.co/studentmaid/mobile"
+                            data-mce-href="http://www.aldev.co/studentmaid/mobile" data-mce-style="">
+                                <img src="http://aldev.co/studentmaid/img/logo.png" alt="Student Maid logo"
+                                width="218" height="40" data-mce-src="http://aldev.co/studentmaid/img/logo.png">
+                            </a>
+                            <br>
+                        </strong>
+                    </h1>
+                </div>
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#page4" data-theme="a" data-icon="home">
+                                Arrive
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <div>
+                    <p>
+                        <strong>
+                            Thanks for your hard work!
+                        </strong>
+                        An e-mail has been sent to the client informing them that the work is
+                        done, and has given them our feedback form as well.
+                    </p>
+                </div>
+                <a data-role="button" data-transition="slide" data-theme="b" href="#page1"
+                data-icon="back" data-iconpos="top">
+                    Return Home
+                </a>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+            </div>
+            <div data-theme="a" data-role="footer">
+                <h1>
+                    MaidApp ‌©2012
+                </h1>
+            </div>
+        </div>
+        <script>
+              //App custom javascript
+        </script>
+    </body>
+
+</html>

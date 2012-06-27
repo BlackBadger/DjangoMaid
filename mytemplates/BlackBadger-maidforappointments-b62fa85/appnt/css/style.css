@@ -1,0 +1,122 @@
+.header {
+	background-color: #000;
+	color: #fff;
+	height: 40px;
+	padding: 15px 0;
+}
+
+.leftMargin {
+	margin-left: 10px;
+}
+
+.noMargin {
+	margin: 0;
+}
+
+.noMarginLeft {
+	margin-left: 0;
+}
+
+.clearpadmar {
+	padding: 0;
+	margin: 0;
+}
+
+.iconPos {
+	position: relative;
+	top: 2px;
+}
+
+.settingsPos {
+	position: relative;
+	top: 13px;
+}
+
+.searchPos {
+	position: relative;
+	top: 6px;
+}
+
+#sidebar {
+	margin: 0 10px 0 0;
+	padding: 0;
+	background-color: #eee;
+	position: relative;
+	bottom: 20px;
+	padding: 20px;
+	min-height: 600px;
+}
+
+.slideleft {
+	position:relative;
+	right:20px;
+}
+
+.heading2 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+#logo {
+	margin-left: 10px;
+	font-size: 1.75em;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+.main {
+	min-height: 600px;
+}
+
+.main a {
+	text-decoration: none;
+}
+
+.searchIcon {
+	z-index: 10;
+	position: relative;
+	right: 10px;
+	top: 12px;
+}
+
+
+
+.footer {
+	background-color: #eee;
+	color: #666;
+	padding: 50px;
+	margin-top: 20px;
+}
+
+#footerBQ {
+	padding-bottom: 40px;
+	background-color: #ccc;
+	border-radius: 10px;
+	border: 1px solid #bbb;
+	padding: 50px;
+}
+
+#twitter {
+	position: relative;
+	bottom: 15px;
+	padding-right: 20px;
+}
+
+.bottomText {
+	border-top: 1px solid #ccc;
+	padding: 50px;
+}
+
+.bottomText p {
+	text-align: center;
+}

@@ -20,7 +20,7 @@ class Employee(models.Model):
 	state_add = models.CharField(max_length=30)
 	zip_add = models.IntegerField()
 	phone = models.IntegerField()
-	email = models.CharField(max_length=30)
+	email = models.EmailField(max_length=30)
 	dob = models.DateField()
 	allergens = models.CharField(max_length=30, choices=allergies_choices)
 	def __unicode__(self):
